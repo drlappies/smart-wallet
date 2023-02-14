@@ -1,0 +1,17 @@
+{
+  "name": "smart-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yau1chun2lap3@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "ganache:start": "ganache"
+  },
+  "devDependencies": {
+    "ganache": "^7.7.4",
+    "truffle": "^5.7.6"
+  }
+}
